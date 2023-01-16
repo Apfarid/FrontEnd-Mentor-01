@@ -1,0 +1,37 @@
+main {
+  padding: 20px;
+  width: 50%;
+}
+
+.card__button {
+  cursor: pointer;
+}
+.card__button:active {
+  background-color: hsl(212deg, 21%, 14%);
+}
+
+.card__container {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+  width: 40%;
+}
+
+.card__image {
+  height: 100%;
+  width: 50%;
+}
+.card__image .card__image--mobile {
+  display: none;
+}
+.card__image .card__image--desktop {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
